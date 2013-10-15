@@ -1,0 +1,211 @@
+.gfx {
+	position:absolute;
+	left:8px;
+	width:30%;
+	min-width:300px;
+}
+
+.fb-like {
+	margin-top:651px;
+	margin-left:220px;
+}
+
+#logo {
+	margin-top:5px;
+}
+
+.twitter-share-button {
+	position:absolute;
+	margin-top:647px;
+	margin-left:280px;
+}
+
+#testimonial {
+	margin-top:605px;
+}
+
+#about {
+	margin-top:644px;
+}
+
+#contact {
+	margin-top:680px;
+}
+
+#quote {
+	margin-top:210px;
+}
+
+#submit {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman";
+	margin-top:395px;
+	margin-left:15px;
+	width:310px;
+}
+
+#map_canvas {
+	margin-top:5px;
+	margin-left:350px;
+	margin-right:20px;
+	width:1050px;
+	font-family:"Palatino Linotype","Book Antiqua",Palatino,"Times New Roman";
+	border-style:solid;
+	border-width:10px;
+	border-color:#EDE47E;
+	padding-top:10px;
+	padding-left:50px;
+	padding-right:30px;
+	padding-bottom:10px;
+}
+
+.content {
+	width:1200px;
+	height:675px;
+	margin-top:15px;
+	margin-left:85px;
+	margin-right:15px;
+	font-family:"Palatino Linotype","Book Antiqua",Palatino,"Times New Roman";
+	border-style:solid;
+	border-width:10px;
+	border-color:#EDE47E;
+	padding-top:10px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:10px;	
+}
+
+.record {
+	width:700px;
+	height:525px;
+	margin-top:15px;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:15px;
+	font-family:"Palatino Linotype","Book Antiqua",Palatino,"Times New Roman";
+	border-style:solid;
+	border-width:10px;
+	border-color:#EDE47E;
+	padding-top:10px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:10px;
+}
+
+#FrameyRecorder {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#contribute {
+	float:right;
+}
+
+#find, #contribute {
+   border-top: 1px solid #999fa3;
+   background: #8c8c8c;
+   background: -webkit-gradient(linear, left top, left bottom, from(#696d70), to(#8c8c8c));
+   background: -webkit-linear-gradient(top, #696d70, #8c8c8c);
+   background: -moz-linear-gradient(top, #696d70, #8c8c8c);
+   background: -ms-linear-gradient(top, #696d70, #8c8c8c);
+   background: -o-linear-gradient(top, #696d70, #8c8c8c);
+   padding: 0px 5px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: "Palatino Linotype", serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+#find:hover, #contribute:hover {
+   border-top-color: #565b5e;
+   background: #565b5e;
+   color: #ccc;
+   }
+#find:active, #contribute:active {
+   border-top-color: #000000;
+   background: #000000;
+   }
+
+
+#execute {
+   border-top: 1px solid #578c4f;
+   background: #78d665;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e9c4e), to(#78d665));
+   background: -webkit-linear-gradient(top, #3e9c4e, #78d665);
+   background: -moz-linear-gradient(top, #3e9c4e, #78d665);
+   background: -ms-linear-gradient(top, #3e9c4e, #78d665);
+   background: -o-linear-gradient(top, #3e9c4e, #78d665);
+   padding: 0px 5px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: "Palatino Linotype", serif;
+   text-decoration: none;
+   vertical-align: middle;
+   display:none;
+   }
+#execute:hover {
+   border-top-color: #367828;
+   background: #367828;
+   color: #ccc;
+   }
+#execute:active {
+   border-top-color: #000000;
+   background: #000000;
+   }
+
+#thePlayer {
+	display:block;
+	float:right;
+	margin-left:30px;
+	margin-bottom:15px;
+}
+
+.text {	
+	text-align:right;
+}
+
+.text_contact {	
+	margin-top:10px;
+	text-align:right;
+}
+
+.page_gfx {
+	margin-top:10px;
+	float:right;
+	margin-left:30px;
+}
+
+.page_contact {
+	margin-top:20px;
+	float:right;
+	margin-left:30px;
+}
+
+
+#text, #statement {
+	color:gray;
+	font-family:Helvetica;
+	font-size:11pt;
+}
+
+h1 {
+	font-size:18pt;
+}
+
+p {
+	font-size:13pt;
+}

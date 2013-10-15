@@ -1,0 +1,22 @@
+<div class="gfx" id="logo"><a href="http://www.slutsacrossamerica.org"><img src="images/logo2.png" width="337" height="187"></a></div>
+<div class="gfx" id="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.slutsacrossamerica.org" data-count="vertical" data-hashtags="SlutSolidarity">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+<span class="gfx"><div class="fb-like" data-href="http://www.slutsacrossamerica.org" data-layout="box_count" data-send="false" data-width="450" data-show-faces="false"></div></span>
+	<div class="gfx" id="quote"><img src="images/quote3.png" width="337" height="200"></div>
+	<div class ="gfx" id="submit">
+			<form action="/create" method="post" id="submission" enctype="multipart/form-data">
+			<p>
+			<p><label><strong>I'm a slut because... </strong></label></br>
+			<textarea name="statement" id="statement" rows='3' cols='34' maxlength='200' >Why do you use or support birth control? (200 character max.)<%= @statement %></textarea></p>
+			<p><label><strong>Where are you? (zip code): </strong></label></br>
+			<input type="textbox" id ="zipcode" name="zipcode">
+			<input type="hidden" id="latlng" name="latlng" value="">
+			<input type="button" id="find" value="Find me!" onclick="codeAddress()">
+			<button type="submit" id="execute">Submit</p>
+	</form>
+	</div>
+	<div class="gfx" id="testimonial"><a href="http://www.slutsacrossamerica.org/testimonials"><img src="images/testimonials.png" width="167.5" height="33"></a></div>
+	<div class="gfx" id="about"><a href="http://www.slutsacrossamerica.org/about"><img src="images/about.png" width="83" height="33"></a></div>
+	<div class="gfx" id="contact"><a href="http://www.slutsacrossamerica.org/contact"><img src="images/contact.png" width="105.5" height="33"></a></div>
+	<div id="map_canvas" style="width:70%; height:93%">
+</div>
